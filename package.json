@@ -1,0 +1,25 @@
+{
+  "name": "aiwordsalgo",
+  "version": "1.0.0",
+  "description": "AI背单词算法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "watch": "tsc -p . -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monsterboom/AIWordsAlgo.git"
+  },
+  "author": "geekZzboom <zbzhao@listenai.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monsterboom/AIWordsAlgo/issues"
+  },
+  "homepage": "https://github.com/monsterboom/AIWordsAlgo#readme",
+  "dependencies": {
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4"
+  }
+}
