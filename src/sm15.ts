@@ -401,7 +401,7 @@ class Item {
         if (!value) {
             return this._aFactor || 0
         }
-        const a = Math.floor((value - MIN_AF) / NOTCH_AF)
+        const a = Math.round((value - MIN_AF) / NOTCH_AF)
         this._aFactor = Math.max(MIN_AF, Math.min(MAX_AF, MIN_AF + a * NOTCH_AF))
         return this._aFactor
     }
